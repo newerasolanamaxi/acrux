@@ -1,0 +1,64 @@
+{
+  "feePayer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+  "fragments": [
+    {
+      "fragment": "AcGBQwlnVNZK1qjsRBsBAACrs8dmLRIVILckJh9Dj1EnSxNua9w5lELW9C+7EN9F+OtY+2iAZpn9K1MFPkuVdqdwIxTmNtyXJaBnM9uIdWVR+v0c8iNdCV370LERMz8HOKx4Uk/biXsPPFkWLwG5JOhM0vrixTr8z1yqYdk9OOZVdpHHNUtNd/cz4XhT6B3C81+dFYmgrZom7XCz4fUq",
+      "header": {
+        "computeLimit": 20000,
+        "feePayer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+        "id": "9b90fd30e07297db702dcca478aa95cb523317f34723432709313a6c36c6c168",
+        "priorityFeePerCu": "100",
+        "targetSlot": 100,
+        "writableAccounts": [
+          "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+          "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+        ]
+      },
+      "headerSignature": "3j5749r1RsnZefcqBGE7rk46qDeYJPp9RtifkX4bZnNmxv2rntxWrrqNokaD4KSsP6V2bGAVEJTWoAFLvT9UvdcN",
+      "index": 0,
+      "keyShare": "AQHlkx6Fn6Hm4Y6ZlBwkG44+4cWhBS+xplruvr7Pw23mpQ==",
+      "n": 2,
+      "receiver": 1,
+      "t": 2
+    },
+    {
+      "fragment": "AcGBQwlnVNZK1qjsRBsBAAAVf+ddrMtWQsZ+AcCTlnanAF+lHBE7unzYMeSJUxm1T13q43FuDdchWTMg2551xiO3nfFdUjUAidturA1zkXtSP170iXoDXmKNAVrGhiDfZFSdVgf0PPXkWMC6SP2GiGv9xyam3HRRmMVAkzAs/+EKLb96PI8Zz+Mvw2RB1zcMI5AQjyD9K52bYDMrNE0A",
+      "header": {
+        "computeLimit": 20000,
+        "feePayer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+        "id": "9b90fd30e07297db702dcca478aa95cb523317f34723432709313a6c36c6c168",
+        "priorityFeePerCu": "100",
+        "targetSlot": 100,
+        "writableAccounts": [
+          "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+          "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+        ]
+      },
+      "headerSignature": "3j5749r1RsnZefcqBGE7rk46qDeYJPp9RtifkX4bZnNmxv2rntxWrrqNokaD4KSsP6V2bGAVEJTWoAFLvT9UvdcN",
+      "index": 1,
+      "keyShare": "AQITaaDWx/TMdnApIJfwcDFh+UI8LXlL3y0rKesVGm0LaA==",
+      "n": 2,
+      "receiver": 2,
+      "t": 2
+    }
+  ],
+  "plain": {
+    "header": {
+      "computeLimit": 20000,
+      "feePayer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+      "id": "9b90fd30e07297db702dcca478aa95cb523317f34723432709313a6c36c6c168",
+      "priorityFeePerCu": "100",
+      "targetSlot": 100,
+      "writableAccounts": [
+        "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+        "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+      ]
+    },
+    "receivers": [
+      1,
+      2
+    ],
+    "transaction": "ASs138wwfMwrbW0MMW0wX7sWzoYJBkfVNJELn/vPtezsJvYp5KLMbyQhOqDQF5gU4DwlPCt09YsCwfNR1DZGlwkBAAIE6kpsY+KcUgq+9VB7Ey7F+ZVHdq6+vnuSQh7qaRRG0iz9FyQ4WqDHW2T7eM1gL6HZkf3r92sTxY7XAurINen2GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwZGb+UhFzL/7K26csOb57yM5bvF9xJrLEObOkAAAAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAUCIE4AAAMACQNkAAAAAAAAAAICAAEMAgAAABAnAAAAAAAA"
+  },
+  "recipient": "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+}
