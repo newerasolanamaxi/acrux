@@ -1,0 +1,85 @@
+{
+  "feePayer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+  "fragments": [
+    {
+      "fragment": "AagyswwegpTRxDC/wBsBAABubh75WyAixlQ7Yu81xJ/oXG0Mjg74YPnh790A+VYRifEQWfKyjRUoN4Z2h/58SCt3FntGPh5YDy8CnY9o1ho5yMdPmiB50nRy4MMg3l7eqMzUdYLEzmfs6pEF1agEog==",
+      "header": {
+        "computeLimit": 20000,
+        "feePayer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+        "id": "9b90fd30e07297db702dcca478aa95cb523317f34723432709313a6c36c6c168",
+        "priorityFeePerCu": "100",
+        "targetSlot": 100,
+        "writableAccounts": [
+          "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+          "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+        ]
+      },
+      "headerSignature": "3j5749r1RsnZefcqBGE7rk46qDeYJPp9RtifkX4bZnNmxv2rntxWrrqNokaD4KSsP6V2bGAVEJTWoAFLvT9UvdcN",
+      "index": 0,
+      "keyShare": "AQH6acHwnqsSxJ/8lCPnrN/hNkipGzqjqUxqnDV5KrtF9w==",
+      "n": 3,
+      "receiver": 1,
+      "t": 3
+    },
+    {
+      "fragment": "AagyswwegpTRxDC/wBsBAACxtj6QIakhxUDwt/IcmwbYxu4wWdBtihpGXEus9AdYkV6mM40Mp6abI4/n4SbF/GsGUNWdros5q5fEkxEcqblXvzMdFjti0xgGxALcCghsZRZT/LAz5UQ77vtU8Z7hVA==",
+      "header": {
+        "computeLimit": 20000,
+        "feePayer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+        "id": "9b90fd30e07297db702dcca478aa95cb523317f34723432709313a6c36c6c168",
+        "priorityFeePerCu": "100",
+        "targetSlot": 100,
+        "writableAccounts": [
+          "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+          "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+        ]
+      },
+      "headerSignature": "3j5749r1RsnZefcqBGE7rk46qDeYJPp9RtifkX4bZnNmxv2rntxWrrqNokaD4KSsP6V2bGAVEJTWoAFLvT9UvdcN",
+      "index": 1,
+      "keyShare": "AQIJqVyqoMIwwyfZ13Dun5WNincznWgIYDKRYc6F2GwiIw==",
+      "n": 3,
+      "receiver": 2,
+      "t": 3
+    },
+    {
+      "fragment": "AagyswwegpTRxDC/wBsBAABx43CPH2ibXD0NX935e1gCnbaX6Ly7GA9A/wIkdjsaW0+U7w/3IiWcD0EvmOquFjfv0RqPKL94stIFKm9pKbLlnjhPM8GB3XbGogrkGLBa40D93jAnUeXVHJwJCeYAAA==",
+      "header": {
+        "computeLimit": 20000,
+        "feePayer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+        "id": "9b90fd30e07297db702dcca478aa95cb523317f34723432709313a6c36c6c168",
+        "priorityFeePerCu": "100",
+        "targetSlot": 100,
+        "writableAccounts": [
+          "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+          "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+        ]
+      },
+      "headerSignature": "3j5749r1RsnZefcqBGE7rk46qDeYJPp9RtifkX4bZnNmxv2rntxWrrqNokaD4KSsP6V2bGAVEJTWoAFLvT9UvdcN",
+      "index": 2,
+      "keyShare": "AQNtrnxr/XBlsgSGBULsXSbrFFF5/3c0ToOHAFocBE4gTA==",
+      "n": 3,
+      "receiver": 3,
+      "t": 3
+    }
+  ],
+  "plain": {
+    "header": {
+      "computeLimit": 20000,
+      "feePayer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+      "id": "9b90fd30e07297db702dcca478aa95cb523317f34723432709313a6c36c6c168",
+      "priorityFeePerCu": "100",
+      "targetSlot": 100,
+      "writableAccounts": [
+        "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+        "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+      ]
+    },
+    "receivers": [
+      1,
+      2,
+      3
+    ],
+    "transaction": "ASs138wwfMwrbW0MMW0wX7sWzoYJBkfVNJELn/vPtezsJvYp5KLMbyQhOqDQF5gU4DwlPCt09YsCwfNR1DZGlwkBAAIE6kpsY+KcUgq+9VB7Ey7F+ZVHdq6+vnuSQh7qaRRG0iz9FyQ4WqDHW2T7eM1gL6HZkf3r92sTxY7XAurINen2GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwZGb+UhFzL/7K26csOb57yM5bvF9xJrLEObOkAAAAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAUCIE4AAAMACQNkAAAAAAAAAAICAAEMAgAAABAnAAAAAAAA"
+  },
+  "recipient": "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+}
