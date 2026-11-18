@@ -36,7 +36,7 @@ async function proofFrom(slot, seconds) {
 const state = join(chain, '.ledger')
 rmSync(state, { recursive: true, force: true })
 mkdirSync(state, { recursive: true })
-const validator = spawn('bash', [join(chain, 'scripts/validator.sh'), state, '32', '--bpf-program', program, join(chain, 'target/deploy/acrux_bridge.so')], { stdio: 'ignore' })
+const validator = spawn('bash', [join(chain, 'scripts/validator.sh'), state, '32', '--upgradeable-program', program, join(chain, 'target/deploy/acrux_bridge.so'), devKeypair('local-authority').publicKey.toBase58()], { stdio: 'ignore' })
 const store = join(node, 'target/bridge-light-client-check')
 rmSync(store, { recursive: true, force: true })
 mkdirSync(store, { recursive: true })
