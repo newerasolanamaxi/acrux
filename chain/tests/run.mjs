@@ -6,7 +6,7 @@ import { spawn, spawnSync } from 'node:child_process'
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { Connection } from '@solana/web3.js'
-import { chainDir } from '../scripts/dev-keys.mjs'
+import { chainDir, devKeypair } from '../scripts/dev-keys.mjs'
 import { RPC_URL } from '../scripts/registry.mjs'
 
 const state = join(chainDir, '.ledger')
@@ -27,7 +27,7 @@ async function suite(files, withGenesis) {
     '--bpf-program', genesis.programs[0].address, join(chainDir, genesis.programs[0].path),
     '--account-dir', accounts,
     // The bridge, built beside the genesis programs.
-    '--bpf-program', 'EDm6HxGArNEgGfWRZwvj42f4euc9oPQWVUwUbkK3PEe5', join(chainDir, 'target/deploy/acrux_bridge.so'),
+    '--upgradeable-program', 'EDm6HxGArNEgGfWRZwvj42f4euc9oPQWVUwUbkK3PEe5', join(chainDir, 'target/deploy/acrux_bridge.so'), devKeypair('local-authority').publicKey.toBase58(),
   ], { stdio: 'ignore' })
   let status = 1
   try {
