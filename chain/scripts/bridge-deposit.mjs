@@ -7,6 +7,7 @@ import anchor from '@coral-xyz/anchor'
 import { TOKEN_PROGRAM_ID, createMint, getOrCreateAssociatedTokenAccount, mintTo } from '@solana/spl-token'
 import { Connection, Keypair, LAMPORTS_PER_SOL, PublicKey, SystemProgram, Transaction, sendAndConfirmTransaction } from '@solana/web3.js'
 import { chainDir, devKeypair } from './dev-keys.mjs'
+import { upgradeData } from './bridge-relay.mjs'
 
 const arg = (name, fallback) => {
   const i = process.argv.indexOf(`--${name}`)
@@ -22,7 +23,7 @@ const idl = JSON.parse(readFileSync(join(chainDir, 'target/idl/acrux_bridge.json
 const program = new anchor.Program(idl, new anchor.AnchorProvider(connection, new anchor.Wallet(depositor), { commitment: 'confirmed' }))
 const pda = (...seeds) => PublicKey.findProgramAddressSync(seeds, program.programId)[0]
 const bridge = pda(Buffer.from('bridge'))
-if (!(await connection.getAccountInfo(bridge))) await program.methods.initialize(new anchor.BN(1536)).accounts({ payer: depositor.publicKey }).rpc()
+if (!(await connection.getAccountInfo(bridge))) await program.methods.initialize(new anchor.BN(1536)).accounts({ payer: authority.publicKey, programData: upgradeData(program.programId) }).signers([authority]).rpc()
 
 const mint = arg('mint') ? new PublicKey(arg('mint')) : await createMint(connection, depositor, depositor.publicKey, null, 6)
 const source = (await getOrCreateAssociatedTokenAccount(connection, depositor, mint, depositor.publicKey)).address
